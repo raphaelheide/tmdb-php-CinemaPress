@@ -1,10 +1,10 @@
 # tmdb-php-CinemaPress
 API Wrapper implementation for The Movie Database <br>
-To find the exemple of this code: https://agenciadesigno.com/cinemapress/
+To find the example of this code: https://agenciadesigno.com/cinemapress/
 ##
 No required: Composer, Laravel or DB
 ##
-Works in any Apache server PHP 7.3+
+Works in any Apache server PHP 7.3+ <br>
 Works in Wordpress - ex: https://mypixeland.com 
 ##
 Multiple language and translation. <br>
