@@ -13,5 +13,5 @@ Multiple country.
 ##
 What do you need? The API code (TMDB)
 ##
-Buy me a coffee (or contract me): <br>
+Buy me a coffee (or hire me): <br>
 raphaelheide1@gmail.com
