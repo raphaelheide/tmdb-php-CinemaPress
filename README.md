@@ -6,10 +6,10 @@ To find the example of this code: https://agenciadesigno.com/cinemapress/ <br>
 No required: Composer, Laravel or DB
 ##
 Works in any Apache server PHP 7.3+ <br>
-Works in Wordpress - ex: https://mypixeland.com 
+Works in Wordpress and WPML - ex: https://mypixeland.com 
 ##
-Multiple language and translation. <br>
-Multiple country. 
+Multiple languages. <br>
+Multiple countries. 
 ##
 What do you need? The API code (TMDB)
 ##
