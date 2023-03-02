@@ -177,5 +177,3 @@ $datageral = json_decode($jsondatageral, true);
 	</div>
 
 </div>
-
-<?php include('inferior.php'); ?>
