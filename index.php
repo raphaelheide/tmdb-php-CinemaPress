@@ -5,11 +5,6 @@
 <link rel="stylesheet" href="css/search.css">
 <link rel="stylesheet" href="appmy.min.css">
 <link rel="stylesheet" href="glide.core.min.css">
-
-<br>
-
-
-
 <style>
 :root {
 	--primary-color: #00bcd4;
@@ -67,9 +62,6 @@ button {cursor: pointer}
 #formGroupExampleInput:-moz-placeholder {
   color: white;
 }
-
-
-
 .SearchBox {
 	--height: 4em;
 	display: flex;
@@ -105,8 +97,6 @@ button {cursor: pointer}
 		margin-right: 10px;
 
 	}
-
-
 @media screen and (min-width: 320px){
 	.SearchBox:hover .SearchBox-input {
 		width: 100%;
@@ -116,24 +106,15 @@ button {cursor: pointer}
 
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
+<br>
 <main>
 	<form>
 	<div class="SearchBox">
-		
 		<input type="text" class="SearchBox-input" name="cinemapress" placeholder="SEARCH MOVIES, TV SHOWS OR PEOPLE">
 				<i class="SearchBox-icon  material-icons">search</i>
-
 	</div>
 	</form>
 </main>
-
-
-
-
-
-
-
 <?php
 include ('api.php');
 $input_line = $_SERVER['QUERY_STRING'];
@@ -143,10 +124,7 @@ preg_match("/([0-9]+)\/?/", $input_line, $output_array);
 $infogeral = 'https://api.themoviedb.org/3/search/multi?api_key='. $api . '&query=' .  str_replace($buscar, $mudar, $input_line) . '&include_adult=false';
 $jsondatageral= file_get_contents ($infogeral);  
 $datageral = json_decode($jsondatageral, true);
-
 ?>
-
-
 <br>
  <div class="mx-auto " align="center" >
 	<div class="rz-explore-listings">
@@ -163,17 +141,13 @@ $datageral = json_decode($jsondatageral, true);
 	
 	} 
 		if ( ($resultado['media_type']) == 'movie') {
-				echo '<a href="' . 'us' . '/movie/?'. $resultado['id'] . '/' . str_replace($buscar, $mudar, $resultado['title']) . '">' . $resultado['title'] . '</a>';
-				echo ' in Movies - ' . date('Y', strtotime($resultado['release_date']))  ;
+		echo '<a href="' . 'us' . '/movie/?'. $resultado['id'] . '/' . str_replace($buscar, $mudar, $resultado['title']) . '">' . $resultado['title'] . '</a>';
+		echo ' in Movies - ' . date('Y', strtotime($resultado['release_date']))  ;
 	
 		} 
 		echo '<br>';
 	}
 	
-	?>  
-	
-	
-
+?>  
 	</div>
-
 </div>
