@@ -9,7 +9,8 @@ Works in any Apache server PHP 7.3+ <br>
 Works in Wordpress and WPML - ex: https://mypixeland.com 
 ##
 Multiple languages. <br>
-Multiple countries. 
+Multiple countries. <br>
+Local where to watch movies, tv shows, series, sports. 
 ##
 What do you need? Your TMDB API<br>
 api.php || $api = "YOUR API";
