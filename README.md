@@ -16,4 +16,5 @@ What do you need? Your TMDB API<br>
 api.php || $api = "YOUR API";
 ##
 Buy me a coffee (or hire me): <br>
-raphaelheide1@gmail.com
+raphaelheide1@gmail.com<br>
+Need more features, website design? Contact me. 
