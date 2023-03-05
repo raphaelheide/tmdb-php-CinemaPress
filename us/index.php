@@ -1,4 +1,3 @@
-
 <!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 <br>
@@ -13,19 +12,12 @@
 	include ('../../menu.php');	
 	?>
 </div>
-
-
-
 <link rel="stylesheet" href="../css/mypixeland.css">
 <link rel="stylesheet" href="../css/main.css">
 <link rel="stylesheet" href="../css/search.css">
 <link rel="stylesheet" href="../css/appmy.min.css">
 <link rel="stylesheet" href="../css/glide.core.min.css">
-
 <br>
-
-
-
 <style>
 :root {
 	--primary-color: #00bcd4;
@@ -83,9 +75,6 @@ button {cursor: pointer}
 #formGroupExampleInput:-moz-placeholder {
   color: white;
 }
-
-
-
 .SearchBox {
 	--height: 4em;
 	display: flex;
@@ -128,25 +117,16 @@ button {cursor: pointer}
 	}
 }
 </style>
-
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
 <main>
-
 	<?php echo '<form action="' . $site . '/' . $ccountry . '" method="get">'; ?>
 	<div class="SearchBox">
-		
 		<input type="text"  class="SearchBox-input" name="cinemapress" placeholder="<?php echo $placeholder ?> ">
-	
-				<i class="SearchBox-icon  material-icons">search</i>
-		
-		
+		<i class="SearchBox-icon  material-icons">search</i>
 	</div>
 	</form>
 </main>
-
-
 <?php
 $input_line = $_SERVER['QUERY_STRING'];
 $buscar = array ('', 'cinemapress=', 'buscar=', ' ', 'Á', 'á', 'É', 'é', 'Í', 'í', 'Ó', 'ó', 'Ú', 'ú', 'ç', 'ã', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z');
@@ -155,10 +135,7 @@ preg_match("/([0-9]+)\/?/", $input_line, $output_array);
 $infogeral = 'https://api.themoviedb.org/3/search/multi?api_key='. $api . '&query=' .  str_replace($buscar, $mudar, $input_line) . '&include_adult=false&language=' . $languageid . '';
 $jsondatageral= file_get_contents ($infogeral);  
 $datageral = json_decode($jsondatageral, true);
-
 ?>
-
-
 <br>
  <div class="mx-auto " align="center" >
 	<div class="rz-explore-listings">
@@ -167,23 +144,17 @@ $datageral = json_decode($jsondatageral, true);
 		if ( ($resultado['media_type']) == 'person') {
 		echo '<a href="../' . $country . '/person/?'. $resultado['id'] . '/' . str_replace($buscar, $mudar, $resultado['name']) . '"><strong>' .$resultado['name'] . '</strong></a>';
 		echo $inpeople;
-	
 	} 
 		if ( ($resultado['media_type']) == 'tv') {
 		echo '<a href="../' . $country . '/tv/?'. $resultado['id'] . '/' . str_replace($buscar, $mudar, $resultado['name']) . '">' .$resultado['name'] . '</a>';
 		echo $inshows . '  - '  . date('Y', strtotime($resultado['first_air_date']))  ;
-	
 	} 
 		if ( ($resultado['media_type']) == 'movie') {
-				echo '<a href="../' . $country . '/movie/?'. $resultado['id'] . '/' . str_replace($buscar, $mudar, $resultado['title']) . '">' . $resultado['title'] . '</a>';
-				echo $inmovie . ' - ' . date('Y', strtotime($resultado['release_date']))  ;
-	
+		echo '<a href="../' . $country . '/movie/?'. $resultado['id'] . '/' . str_replace($buscar, $mudar, $resultado['title']) . '">' . $resultado['title'] . '</a>';
+		echo $inmovie . ' - ' . date('Y', strtotime($resultado['release_date']))  ;
 		} 
 		echo '<br>';
 	}
-	
 	?>  
-
 	</div>
-
 </div>
