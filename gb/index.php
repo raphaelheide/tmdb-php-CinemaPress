@@ -15,11 +15,11 @@
 </div>
 
 
-<link rel="stylesheet" href="https://agenciadesigno.com/cinemapress/css/mypixeland.css">
-<link rel="stylesheet" href="https://agenciadesigno.com/cinemapress/css/main.css">
-<link rel="stylesheet" href="https://agenciadesigno.com/cinemapress/css/search.css">
-<link rel="stylesheet" href="https://agenciadesigno.com/cinemapress/css/appmy.min.css">
-<link rel="stylesheet" href="https://agenciadesigno.com/cinemapress/css/glide.core.min.css">
+<link rel="stylesheet" href="../css/mypixeland.css">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/search.css">
+<link rel="stylesheet" href="../css/appmy.min.css">
+<link rel="stylesheet" href="../css/glide.core.min.css">
 
 <br>
 
