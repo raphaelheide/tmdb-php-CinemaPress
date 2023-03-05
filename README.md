@@ -11,7 +11,8 @@ Works in Wordpress and WPML - ex: https://mypixeland.com
 Multiple languages. <br>
 Multiple countries. 
 ##
-What do you need? The API code (TMDB)
+What do you need? The API code (TMDB)<br>
+api.php || $api = "YOUR API";
 ##
 Buy me a coffee (or hire me): <br>
 raphaelheide1@gmail.com
