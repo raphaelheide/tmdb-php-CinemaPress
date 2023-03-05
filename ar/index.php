@@ -16,11 +16,11 @@
 	
 
 
-<link rel="stylesheet" href="https://agenciadesigno.com/cinemapress/css/mypixeland.css">
-<link rel="stylesheet" href="https://agenciadesigno.com/cinemapress/css/main.css">
-<link rel="stylesheet" href="https://agenciadesigno.com/cinemapress/css/search.css">
-<link rel="stylesheet" href="https://agenciadesigno.com/cinemapress/css/appmy.min.css">
-<link rel="stylesheet" href="https://agenciadesigno.com/cinemapress/css/glide.core.min.css">
+<link rel="stylesheet" href="../css/mypixeland.css">
+<link rel="stylesheet" href="../css/main.css">
+<link rel="stylesheet" href="../css/search.css">
+<link rel="stylesheet" href="../css/appmy.min.css">
+<link rel="stylesheet" href="../css/glide.core.min.css">
 
 <br>
 
@@ -175,8 +175,8 @@ $datageral = json_decode($jsondatageral, true);
 	
 	} 
 		if ( ($resultado['media_type']) == 'movie') {
-				echo '<a href="../' . $country . '/movie/?'. $resultado['id'] . '/' . str_replace($buscar, $mudar, $resultado['title']) . '">' . $resultado['title'] . '</a>';
-				echo $inmovie . ' - ' . date('Y', strtotime($resultado['release_date']))  ;
+		echo '<a href="../' . $country . '/movie/?'. $resultado['id'] . '/' . str_replace($buscar, $mudar, $resultado['title']) . '">' . $resultado['title'] . '</a>';
+		echo $inmovie . ' - ' . date('Y', strtotime($resultado['release_date']))  ;
 	
 		} 
 		echo '<br>';
