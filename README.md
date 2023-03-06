@@ -14,8 +14,20 @@ Multiple countries. <br>
 Local where to watch movies, tv shows, series, sports. 
 ##
 What do you need? Your TMDB API<br>
-api.php || $api = "YOUR API";
+api.php || $api = "YOUR API";<br>
 ##
 Buy me a coffee (or hire me): <br>
 raphaelheide1@gmail.com<br>
 Need more features, website design? Contact me. 
+##
+<strong>Version 1.0:</strong> <br>
+Search Movies <br>
+Search Tv Shows  <br>
+Search People <br>
+Movie Details <br>
+TV Shows Details <br>
+People Details <br>
+Where to Watch <br>
+Trailers <br>
+Multiple Countries <br>
+Multiple Languages <br>
