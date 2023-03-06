@@ -111,7 +111,7 @@ button {cursor: pointer}
 	<form>
 	<div class="SearchBox">
 		<input type="text" class="SearchBox-input" name="cinemapress" placeholder="SEARCH MOVIES, TV SHOWS OR PEOPLE">
-				<i class="SearchBox-icon  material-icons">search</i>
+		<i class="SearchBox-icon  material-icons">search</i>
 	</div>
 	</form>
 </main>
@@ -147,7 +147,6 @@ $datageral = json_decode($jsondatageral, true);
 		} 
 		echo '<br>';
 	}
-	
 ?>  
 	</div>
 </div>
