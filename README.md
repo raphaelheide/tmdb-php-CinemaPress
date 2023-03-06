@@ -6,7 +6,8 @@ To find the example of this code: https://agenciadesigno.com/cinemapress/ <br>
 No required: Composer, Laravel or DB
 ##
 Works in any Apache server PHP 7.3+ <br>
-Works in Wordpress and WPML - ex: https://mypixeland.com 
+Works in Wordpress and WPML <br>
+ex: https://mypixeland.com 
 ##
 Multiple languages. <br>
 Multiple countries. <br>
