@@ -90,7 +90,6 @@ button {cursor: pointer}
 		background-color: var(--accent-color);
 		transition: .3s;
 	}
-	
 	.SearchBox-icon {
 		margin: auto;
 		color: #fff;
@@ -103,7 +102,6 @@ button {cursor: pointer}
 	}
 }
 </style>
-
 <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <br>
