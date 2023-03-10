@@ -1,7 +1,7 @@
 # tmdb-php-CinemaPress
 API Wrapper implementation for The Movie Database <br>
 To find the example of this code: https://agenciadesigno.com/cinemapress/ <br>
-<img src="https://agenciadesigno.com/cinemapress.jpg">
+<img src="https://raphaelheide.com/cinemapress.jpg">
 ##
 No required: Composer, Laravel or DB
 ##
