@@ -22,7 +22,6 @@
 :root {
 	--primary-color: #00bcd4;
 	--accent-color: #f50057;
-
 	--text-color: #263238;
 	--body-color: #fff;
 	--main-font: 'roboto';
@@ -30,7 +29,6 @@
 	--font-regular: 400;
 }
 * { box-sizing: border-box }
-
 body {
 	color: var(--text-color);
 	background-color: var(--body-color);
