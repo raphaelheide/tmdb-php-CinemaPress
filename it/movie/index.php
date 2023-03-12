@@ -10,8 +10,8 @@ echo '<title> ' . $data['title'] . '</title>';
 
 
 <?php
-$info = 'http://www.omdbapi.com/?i=' . $data['imdb_id'] . '&apikey=b03d8538';
-$info2 = 'http://www.omdbapi.com/?i=&apikey=b03d8538';
+$info = 'http://www.omdbapi.com/?i=' . $data['imdb_id'] . '&apikey=YOUR API';
+$info2 = 'http://www.omdbapi.com/?i=&apikey=YOUR API';
   if ($info == $info2)  {
 	  echo ' ';
 	   } else { 
