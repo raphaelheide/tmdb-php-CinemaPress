@@ -1,4 +1,4 @@
 <?php
 $api = 'YOUR API HERE';
-$site = 'https://YOUR WEBSITE';
+$site = 'https://YOUR WEBSITE/';
 ?>
