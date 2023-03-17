@@ -5,9 +5,7 @@ preg_match("/([0-9]+)\/?/", $input_line, $output_array);
 $jsondata = file_get_contents ('https://api.themoviedb.org/3/movie/'.  $output_array[1] .'?api_key=' . $api . '&language=' . $languageid . '');
 $data = json_decode($jsondata, true);
 echo '<title> ' . $data['title'] . '</title>';
-
 ?>
-
 
 <?php
 $info = 'http://www.omdbapi.com/?i=' . $data['imdb_id'] . '&apikey=YOUR API';
