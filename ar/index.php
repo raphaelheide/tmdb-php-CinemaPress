@@ -14,8 +14,6 @@
 	?>
 </div>
 	
-
-
 <link rel="stylesheet" href="../css/mypixeland.css">
 <link rel="stylesheet" href="../css/main.css">
 <link rel="stylesheet" href="../css/search.css">
