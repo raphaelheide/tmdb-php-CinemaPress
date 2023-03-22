@@ -108,7 +108,6 @@ button {cursor: pointer}
 		margin-right: 10px;
 	}
 
-
 @media screen and (min-width: 320px){
 	.SearchBox:hover .SearchBox-input {
 		width: 100%;
