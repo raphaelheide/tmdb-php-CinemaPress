@@ -1,10 +1,10 @@
 <!doctype html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<link rel="stylesheet" href="/css/mypixeland.css">
-<link rel="stylesheet" href="/css/main.css">
-<link rel="stylesheet" href="/css/search.css">
-<link rel="stylesheet" href="/appmy.min.css">
-<link rel="stylesheet" href="/glide.core.min.css">
+<link rel="stylesheet" href="css/mypixeland.css">
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/search.css">
+<link rel="stylesheet" href="appmy.min.css">
+<link rel="stylesheet" href="glide.core.min.css">
 <?php
 // YOU CAN CHANGE YOUR BUTTON STYLE FOR YOUR STYLE 
 ?>
