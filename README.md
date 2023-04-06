@@ -4,6 +4,7 @@ To find the example of this code: https://raphaelheide.com/cinemapress/ <br>
 <img src="https://agenciadesigno.com/cinemapress.jpg">
 ##
 No required: Composer, Laravel or DB
+No cache required (but yes, you can cache if you want it).
 ##
 Works in any Apache server PHP 7.3+ <br>
 Works in Wordpress and WPML <br>
