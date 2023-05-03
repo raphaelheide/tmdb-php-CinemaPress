@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="appmy.min.css">
 <link rel="stylesheet" href="glide.core.min.css">
 <?php
-// YOU CAN CHANGE YOUR BUTTON STYLE FOR YOUR STYLE 
+// YOU CAN CHANGE YOUR BUTTON STYLE
 ?>
 <style>
 :root {
